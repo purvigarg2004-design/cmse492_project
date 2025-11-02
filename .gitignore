@@ -34,13 +34,16 @@ data/tmp/
 # ---------------------------
 # Models / artifacts
 # ---------------------------
-models/
+models/                 # ignore top-level models/ (artifacts)
+!src/models/            # BUT keep the project source folder
+!src/models/.gitkeep    # and keep the placeholder file in it
 checkpoints/
 *.h5
 *.hdf5
 *.ckpt
 *.pt
 *.pth
+
 
 # ---------------------------
 # Build / dist
