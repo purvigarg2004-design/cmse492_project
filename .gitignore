@@ -1,0 +1,65 @@
+# ---------------------------
+# Python / ML general
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.joblib
+
+# virtual envs
+venv/
+.venv/
+env/
+.env
+.env.*
+
+# ---------------------------
+# Jupyter / VS Code
+# ---------------------------
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# ---------------------------
+# Data (keep small processed, ignore big/raw)
+# if your raw CSVs are big, keep this:
+data/tmp/
+
+# but DO track small cleaned files like:
+# data/processed/weather_sample_100.csv
+
+# ---------------------------
+# Models / artifacts
+# ---------------------------
+models/
+checkpoints/
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+
+# ---------------------------
+# Build / dist
+# ---------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------------------------
+# OS junk
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Logs / experiments
+# ---------------------------
+*.log
+logs/
+wandb/
+mlruns/
