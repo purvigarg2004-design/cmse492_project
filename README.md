@@ -6,9 +6,9 @@ This project uses the Kaggle “Weather Prediction” dataset (derived from the 
 
 ```text
 cmse492_project/
-├── README.md
-├── requirements.txt
-├── .gitignore
+├── README.md                          # Project overview, setup, usage (this file)
+├── requirements.txt                   # Python dependencies for the project (didn't needed so far)
+├── .gitignore                         # Ignore data, local env, checkpoints, etc.
 ├── data/
 │   └── raw/
 │       └── weather_prediction.csv     # Kaggle/ECA&D CSV (not in git)
